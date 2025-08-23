@@ -1,0 +1,9 @@
+{
+  "total_features": 200,
+  "top_financial_features": 30,
+  "emerging_financial_features": 15,
+  "avg_financial_improvement": 0.005954714026302099,
+  "max_financial_improvement": 0.9270107746124268,
+  "features_with_positive_change": 102,
+  "features_with_negative_change": 98
+}

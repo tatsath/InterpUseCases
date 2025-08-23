@@ -1,0 +1,1203 @@
+{
+  "bert_explanations": {
+    "34": {
+      "explanation": "Explanation could not be parsed.",
+      "short_summary": "Explanation could not be parsed",
+      "activity_count": 12218,
+      "top_examples": [
+        [
+          "% as the explosive growth of the ai market drove more",
+          6.282148361206055
+        ],
+        [
+          "invented the graphics processing unit ( gpu ) in 1999",
+          6.254669189453125
+        ],
+        [
+          "boeing says will be made and sold within the next couple",
+          6.223729133605957
+        ],
+        [
+          "12 - month price target on boeing to $ 215 a",
+          6.161391258239746
+        ],
+        [
+          "chartmoreover, despite recent headwinds, apple",
+          6.074129581451416
+        ],
+        [
+          "bank results signaled areturn to strength on wall street,",
+          6.057973861694336
+        ],
+        [
+          "benchmark indexes ticked higher, while long - dated",
+          5.998844146728516
+        ],
+        [
+          "losing streak, powell warns on inflation ' : ucks",
+          5.958252906799316
+        ],
+        [
+          "as they face higher food and energy prices. in fact",
+          5.910181999206543
+        ],
+        [
+          "a portfolio, regular updates from analysts, and two new",
+          5.855062961578369
+        ]
+      ],
+      "avg_activation": 6.077638339996338
+    },
+    "42": {
+      "explanation": "Explanation could not be parsed.",
+      "short_summary": "Explanation could not be parsed",
+      "activity_count": 4316,
+      "top_examples": [
+        [
+          "igm ' s momentum will likely continue thanks to tail",
+          12.078782081604004
+        ],
+        [
+          "cautioned that the market would be reminiscent of 2022",
+          12.009071350097656
+        ],
+        [
+          "\u2019 s likely that it will only get more challenging to",
+          11.999006271362305
+        ],
+        [
+          "of its guidance, which would represent year - over -",
+          11.888847351074219
+        ],
+        [
+          "management estimates its embedded business will bounce back in the latter",
+          11.79104232788086
+        ],
+        [
+          "estimate the global ai market will be $ 184 billion in",
+          11.718952178955078
+        ],
+        [
+          "share, \" and it could lead to substantial upside for",
+          11.673393249511719
+        ],
+        [
+          "with a new ceo who will rise to the challenge and",
+          11.620956420898438
+        ],
+        [
+          "best, auto chip growth will grind to a halt,",
+          11.55401611328125
+        ],
+        [
+          "midpoint ), which would be higher than",
+          11.553082466125488
+        ]
+      ],
+      "avg_activation": 11.788714981079101
+    }
+  },
+  "finbert_explanations": {
+    "34": {
+      "explanation": "Text fragments containing various types of punctuation marks, special characters, and numbers, often indicating the end of a sentence or a specific context, such as dates or times.",
+      "short_summary": "Various types of punctuation marks, special characters, and",
+      "activity_count": 19319,
+      "top_examples": [
+        [
+          "through 2028. thus, even if growth slows",
+          10.834503173828125
+        ],
+        [
+          "street analyst': so, why would the market now",
+          10.684289932250977
+        ],
+        [
+          "##liquidity. hence, if it cannot innova",
+          10.661105155944824
+        ],
+        [
+          "- dining chains. however, if the economy holds up",
+          10.61273193359375
+        ],
+        [
+          "in 2023. still, in the year \u2019 s",
+          10.574042320251465
+        ],
+        [
+          ") in 2007. nonetheless, between its 2007 ipo",
+          10.537382125854492
+        ],
+        [
+          "stock that day. unfortunately, this meant quite a tough",
+          10.534867286682129
+        ],
+        [
+          "tools in june. additionally, even when accounting for un",
+          10.443281173706055
+        ],
+        [
+          "growth. but in reality, that leaves you exposed to",
+          10.4169921875
+        ],
+        [
+          "upcoming earnings call. unfortunately, if tesla were to confirm",
+          10.414849281311035
+        ]
+      ],
+      "avg_activation": 10.571404457092285
+    },
+    "42": {
+      "explanation": "Text fragments containing a mix of normal words and special characters, likely representing a specific format or structure, such as a dataset or a model's input.",
+      "short_summary": "A mix of normal words and special characters,",
+      "activity_count": 46899,
+      "top_examples": [
+        [
+          "this : themotley fool stock advisoranalyst team",
+          6.875375747680664
+        ],
+        [
+          ". follow her on x @ allie _ canal, linked",
+          6.791429042816162
+        ],
+        [
+          "from benzinga? apple ( aapl ) : free",
+          6.78831672668457
+        ],
+        [
+          "this : themotley fool stock advisoranalyst team",
+          6.765524864196777
+        ],
+        [
+          "cooperation will last after attack on israelwhat if fed",
+          6.646182537078857
+        ],
+        [
+          "this : themotley fool stock advisoranalyst team",
+          6.62451696395874
+        ],
+        [
+          "##a babington and jonathan oatis ) <",
+          6.615334987640381
+        ],
+        [
+          "##ia that you can buy and hold for years':",
+          6.5895514488220215
+        ],
+        [
+          "sunhas positions in apple and meta platforms. the mo",
+          6.587312698364258
+        ],
+        [
+          "to snap a losing streak in the market were hit with",
+          6.579543113708496
+        ]
+      ],
+      "avg_activation": 6.686308813095093
+    },
+    "43": {
+      "explanation": "The token \"more\" is frequently used to indicate an increase or intensification of a particular quality or quantity, often in a comparative or superlative context.",
+      "short_summary": "\"more\" is frequently used to indicate an increase",
+      "activity_count": 32475,
+      "top_examples": [
+        [
+          "money if the company generates more in earnings. forgetting the",
+          11.998127937316895
+        ],
+        [
+          "re likely to grow wealthier with salesforce. 3",
+          11.96739387512207
+        ],
+        [
+          "has just gotten a lot more complicated, \" wrote rb",
+          11.848227500915527
+        ],
+        [
+          "gearing up for some more volatility in the",
+          11.824628829956055
+        ],
+        [
+          "his commentary in a far more visceral way than",
+          11.811988830566406
+        ],
+        [
+          "term risk / reward is more balanced at current levels \"",
+          11.765129089355469
+        ],
+        [
+          "deutsche bank is being slightly more measured today, forecasting",
+          11.722004890441895
+        ],
+        [
+          "is likely to become much more valuable. in 2025",
+          11.699529647827148
+        ],
+        [
+          "article titled'which has more staying power, stocks or",
+          11.588242530822754
+        ],
+        [
+          "key developments that could provide more direction to markets on wednesday",
+          11.529040336608887
+        ]
+      ],
+      "avg_activation": 11.77543134689331
+    },
+    "48": {
+      "explanation": "Text snippets containing various types of data, including numbers, percentages, and company names, often in a format suggesting financial or business-related information.",
+      "short_summary": "Various types of data, including numbers, percentages, and",
+      "activity_count": 63242,
+      "top_examples": [
+        [
+          "intel, long january 2026 $ 395 calls on microsoft",
+          5.156338691711426
+        ],
+        [
+          "as debt rolls over to higher rates. that's",
+          5.125165939331055
+        ],
+        [
+          "0. 34 % ( + 127. 83 points )",
+          5.109718322753906
+        ],
+        [
+          "##5 will surpass the 2021 peaks. story continuescap",
+          5.088183879852295
+        ],
+        [
+          "##ptures from southeast asia to africa. the rise of",
+          5.060464859008789
+        ],
+        [
+          "wow subscribers increased 27 % to 14 million. for the",
+          5.05018949508667
+        ],
+        [
+          "32. 4 billion increased by 14 %. what i",
+          4.971607208251953
+        ],
+        [
+          "devices, alphabet, apple, meta platforms, microsoft,",
+          4.902628421783447
+        ],
+        [
+          "42 % in 2024 and 33 % in 2025",
+          4.891016483306885
+        ],
+        [
+          "subscribers increased 27 % to 14 million. for the full",
+          4.888370037078857
+        ]
+      ],
+      "avg_activation": 5.024368333816528
+    },
+    "51": {
+      "explanation": "A sequence of tokens representing a news article title, with a consistent structure of \"continued from the article titled '...'\" followed by the title itself, which can contain various characters, numbers, and special tokens.",
+      "short_summary": "Tokens representing a news article title, with a",
+      "activity_count": 42325,
+      "top_examples": [
+        [
+          "continued from the article titled'stock market today : dow",
+          12.653454780578613
+        ],
+        [
+          "continued from the article titled'stock market today : dow",
+          12.572203636169434
+        ],
+        [
+          "continued from the article titled'junior analysts, beware",
+          12.43499755859375
+        ],
+        [
+          "continued from the article titled'3 must - know facts",
+          12.412273406982422
+        ],
+        [
+          "continued from the article titled'3 unstoppable",
+          12.409578323364258
+        ],
+        [
+          "continued from the article titled'stock market today : dow",
+          12.324350357055664
+        ],
+        [
+          "continued from the article titled'stock market today : dow",
+          12.317989349365234
+        ],
+        [
+          "continued from the article titled'3 stocks that can help",
+          12.297781944274902
+        ],
+        [
+          "continued from the article titled'is it too late to",
+          12.262734413146973
+        ],
+        [
+          "continued from the article titled'got $ 5, 000",
+          12.207181930541992
+        ]
+      ],
+      "avg_activation": 12.389254570007324
+    },
+    "52": {
+      "explanation": "Texts describing market trends, company performance, and economic analysis, often using technical terms and phrases.",
+      "short_summary": "Market trends, company performance, and economic analysis, often",
+      "activity_count": 25118,
+      "top_examples": [
+        [
+          "signs of stress \" in the market as rising yields continue",
+          11.335240364074707
+        ],
+        [
+          "things that are going on in the world. clearly,",
+          11.32338809967041
+        ],
+        [
+          "the companies that compete in the sector. rather than selling",
+          11.3074951171875
+        ],
+        [
+          "will be unlike anything in the market. \" the company",
+          11.232501983642578
+        ],
+        [
+          "out a lucrative position in the market. as a result",
+          11.203143119812012
+        ],
+        [
+          "some hesitancy in the market, which management believes",
+          11.199719429016113
+        ],
+        [
+          "cuts to certain divisions in the company that point to a",
+          11.185540199279785
+        ],
+        [
+          "clinics will be unlike anything in the market. \" the",
+          11.082846641540527
+        ],
+        [
+          "\" bots \" in the industry, but that '",
+          11.0221529006958
+        ],
+        [
+          "##ve out a lucrative position in the market. as a",
+          10.983570098876953
+        ]
+      ],
+      "avg_activation": 11.187559795379638
+    },
+    "54": {
+      "explanation": "Text snippets containing financial and business-related information, including earnings reports, stock market data, and economic indicators.",
+      "short_summary": "Financial and business-related information, including earnings reports, stock",
+      "activity_count": 19724,
+      "top_examples": [
+        [
+          "its first - quarter earnings report. as of 11 :",
+          10.36380386352539
+        ],
+        [
+          "s first - quarter earnings report, the stock traded down",
+          9.982890129089355
+        ],
+        [
+          "after a strong retail sales report, thes & p",
+          9.956584930419922
+        ],
+        [
+          "##yawrote in a report. \u201c in recent quarters",
+          9.873717308044434
+        ],
+        [
+          "discussed aws in a report about the internet sector.",
+          9.87258529663086
+        ],
+        [
+          "boeing's quarterly earnings report in two weeks to prompt",
+          9.866640090942383
+        ],
+        [
+          "its first - quarter earnings report. the company also gave",
+          9.819668769836426
+        ],
+        [
+          "since the april 5 reuters report, some investors have cheered",
+          9.737349510192871
+        ],
+        [
+          "its first - quarter earnings report, which set the tone",
+          9.735220909118652
+        ],
+        [
+          "##outs, according to a report by hartford funds. am",
+          9.68962574005127
+        ]
+      ],
+      "avg_activation": 9.889808654785156
+    },
+    "56": {
+      "explanation": "Texts containing quotes and phrases expressing opinions, predictions, or likelihoods, often with a tone of uncertainty or caution.",
+      "short_summary": "Texts containing quotes and phrases expressing opinions, predictions,",
+      "activity_count": 41062,
+      "top_examples": [
+        [
+          "client management. still, it \u2019 s likely that it",
+          9.703932762145996
+        ],
+        [
+          "concluded by saying, \" it would be ridiculous for people",
+          9.539719581604004
+        ],
+        [
+          "in its time, and it's unlikely to stop",
+          9.423733711242676
+        ],
+        [
+          "and if you do, it likely came at the expense",
+          9.366220474243164
+        ],
+        [
+          "on that below ). it's no wonder that",
+          9.346935272216797
+        ],
+        [
+          "of his electrical inventions. it probably shouldn't be",
+          9.30730152130127
+        ],
+        [
+          "confidence and instead indicate that it's likely to take",
+          9.285346984863281
+        ],
+        [
+          ": pfe ). it's pretty incredible what",
+          9.275336265563965
+        ],
+        [
+          "17 in 2022. it's likely to get",
+          9.248058319091797
+        ],
+        [
+          "2024. indeed, it seems like the company could",
+          9.20906925201416
+        ]
+      ],
+      "avg_activation": 9.370565414428711
+    },
+    "59": {
+      "explanation": "Text snippets from various articles or documents, likely from a financial or business context, containing a mix of nouns, verbs, and adjectives related to market trends, company performance, and economic indicators.",
+      "short_summary": "Text snippets from various articles or documents, likely",
+      "activity_count": 34988,
+      "top_examples": [
+        [
+          ". \" \" we've come so far, so",
+          12.06995677947998
+        ],
+        [
+          "%, while the latter has fallen an astounding",
+          11.961751937866211
+        ],
+        [
+          "said, \u201c it \u2019 s become less about the vehicles",
+          11.735795021057129
+        ],
+        [
+          "1 magnificent stock that's skyrocketed nearly",
+          11.653347969055176
+        ],
+        [
+          "reported. \u201c we \u2019 ve reached a threshold of market",
+          11.595210075378418
+        ],
+        [
+          "- - whether they've climbed or not in recent",
+          11.539877891540527
+        ],
+        [
+          "together to see if history has tended to favor one or",
+          11.52497386932373
+        ],
+        [
+          "##ia, but its stock has also performed very well,",
+          11.475791931152344
+        ],
+        [
+          "less than what we've had, mathematically,",
+          11.45848560333252
+        ],
+        [
+          "voice ai company. it has been generating strong growth numbers",
+          11.435873031616211
+        ]
+      ],
+      "avg_activation": 11.645106410980224
+    },
+    "65": {
+      "explanation": "Text data containing a mix of numerical values, special characters, and English words, likely representing a dataset for natural language processing or machine learning tasks.",
+      "short_summary": "A mix of numerical values, special characters, and",
+      "activity_count": 29635,
+      "top_examples": [
+        [
+          "$ 13 $ 5724, 300 % july 9,",
+          6.930681228637695
+        ],
+        [
+          ", 821 $ 65, 061638 % data",
+          6.651044845581055
+        ],
+        [
+          "qqq + 0. 39 % $ dj",
+          6.227041721343994
+        ],
+        [
+          "##g ) ( nasdaq : googl ) :",
+          6.096791744232178
+        ],
+        [
+          "##daq composite : 15, 848. 73,",
+          6.0940728187561035
+        ],
+        [
+          ") ( nasdaq : googl ) are three",
+          6.050143241882324
+        ],
+        [
+          ") ( nasdaq : googl ) : google",
+          5.919637680053711
+        ],
+        [
+          "policy. before you buy and hold roku stock,",
+          5.889499664306641
+        ],
+        [
+          "fool. best artificial intelligence ( ai ) stock : n",
+          5.8262810707092285
+        ],
+        [
+          ", 2024 at 9 : 07 am pdtalexa",
+          5.813846111297607
+        ]
+      ],
+      "avg_activation": 6.149904012680054
+    },
+    "83": {
+      "explanation": "Repeated sequences of specific phrases, likely representing news headlines or article titles, with a consistent structure and vocabulary.",
+      "short_summary": "Specific phrases, likely representing news headlines or article",
+      "activity_count": 17220,
+      "top_examples": [
+        [
+          "reserve officials will speak this week, starting on tuesday with",
+          7.991318702697754
+        ],
+        [
+          "dipped. stocks tumbled this week as investors continued to digest",
+          7.957581043243408
+        ],
+        [
+          "two new stock picks each month. thestock advisorser",
+          7.8454909324646
+        ],
+        [
+          "two new stock picks each month. thestock advisorser",
+          7.802622318267822
+        ],
+        [
+          "two new stock picks each month. thestock advisorser",
+          7.721923828125
+        ],
+        [
+          "two new stock picks each month. thestock advisorser",
+          7.698030471801758
+        ],
+        [
+          "in stark evidence earlier this week during a speech in washington",
+          7.685713291168213
+        ],
+        [
+          "two new stock picks each month. thestock advisorser",
+          7.68348503112793
+        ],
+        [
+          "two new stock picks each month. thestock advisorser",
+          7.681135177612305
+        ],
+        [
+          "two new stock picks each month. thestock advisorser",
+          7.677433013916016
+        ]
+      ],
+      "avg_activation": 7.774473381042481
+    },
+    "103": {
+      "explanation": "Text snippets from news articles or financial reports, likely from a specific domain (e.g., finance, technology), with a focus on key phrases, company names, and financial data.",
+      "short_summary": "Text snippets from news articles or financial reports,",
+      "activity_count": 69679,
+      "top_examples": [
+        [
+          "the analyst, who has a neutral rating, said sentiment",
+          6.869694709777832
+        ],
+        [
+          "cheerleader for the company, though. ark invest has",
+          6.836535930633545
+        ],
+        [
+          "or is selling momentum gathering a powerful head of steam?",
+          6.794606685638428
+        ],
+        [
+          "slide in rivian shares. he added that risks that",
+          6.743204593658447
+        ],
+        [
+          "but markets got the message. \u201d still, powell \u2019",
+          6.7375593185424805
+        ],
+        [
+          "expect rates to cycle around. \" traders, who since",
+          6.712588787078857
+        ],
+        [
+          ". the analyst, who has a neutral rating, said",
+          6.704010009765625
+        ],
+        [
+          "likely has some investors wondering if it's too late",
+          6.678990364074707
+        ],
+        [
+          "and world bank spring meetings. the imf on tuesday",
+          6.594727039337158
+        ],
+        [
+          "##mirrored the index, struggling to stay in the",
+          6.565212249755859
+        ]
+      ],
+      "avg_activation": 6.723712968826294
+    },
+    "106": {
+      "explanation": "Texts are composed of stock market related terms and phrases, including company names, financial concepts, and market analysis.",
+      "short_summary": "Stock market related terms and phrases, including company",
+      "activity_count": 14979,
+      "top_examples": [
+        [
+          "t have to explain the reasoning behind their stock trades.",
+          7.7888360023498535
+        ],
+        [
+          "##bc's supply chain analysis suggests the de - stock",
+          7.222951412200928
+        ],
+        [
+          "number, ark's model suggests that spot bitco",
+          7.143545627593994
+        ],
+        [
+          "recently published a sharpe ratio analysis suggesting an allocation of",
+          7.090629577636719
+        ],
+        [
+          "##entresto, a medicine for heart failure, is",
+          7.000532627105713
+        ],
+        [
+          "the effectiveness of its ai software will make or break x",
+          6.966524124145508
+        ],
+        [
+          ".. the short seller analysis by fuzzy panda research mis",
+          6.895016670227051
+        ],
+        [
+          "driving ( fsd ) software in its cars by half",
+          6.866388320922852
+        ],
+        [
+          "chasing the biggest names in artificial intelligence. but these 2",
+          6.8628926277160645
+        ],
+        [
+          "chasing the biggest names in artificial intelligence. but these 2",
+          6.824496269226074
+        ]
+      ],
+      "avg_activation": 7.066181325912476
+    },
+    "109": {
+      "explanation": "A collection of phrases and sentences with varying lengths, containing a mix of proper nouns, common nouns, verbs, and punctuation marks, likely representing a dataset of text snippets.",
+      "short_summary": "Phrases and sentences with varying lengths, containing a",
+      "activity_count": 50704,
+      "top_examples": [
+        [
+          "beat \" now after the impressive fourth",
+          7.437718391418457
+        ],
+        [
+          "againred lobster considers bankruptcy to deal",
+          7.381341457366943
+        ],
+        [
+          "e - commerce continues to \" hang",
+          7.321746826171875
+        ],
+        [
+          "trouble finding new funding sources, in my",
+          7.312557220458984
+        ],
+        [
+          "s defenses against cancer. tumor",
+          7.190348148345947
+        ],
+        [
+          ",'we're going",
+          7.170556545257568
+        ],
+        [
+          "its self - driving software, which",
+          7.141221046447754
+        ],
+        [
+          "come in. tuesday morning, it",
+          7.092963218688965
+        ],
+        [
+          ", \" xu said. when",
+          7.050331115722656
+        ],
+        [
+          "monster returns in the coming years",
+          7.0409722328186035
+        ]
+      ],
+      "avg_activation": 7.213975620269776
+    },
+    "115": {
+      "explanation": "Texts discussing investment and stock market, with frequent mentions of dollar amounts, stock names, and investment decisions.",
+      "short_summary": "Investment and stock market, with frequent mentions of",
+      "activity_count": 31019,
+      "top_examples": [
+        [
+          "' : for investors to buy now \u2026 and vanda",
+          9.444502830505371
+        ],
+        [
+          "be imprudent to buy a single ai stock,",
+          9.376067161560059
+        ],
+        [
+          "fundamental analysis? should you buy the stock at current prices",
+          9.361459732055664
+        ],
+        [
+          "business. \" should you invest $ 1, 000 in",
+          9.35301685333252
+        ],
+        [
+          "is it too late to buy energy transfer stock? '",
+          9.30896282196045
+        ],
+        [
+          "article titled'should you buy the dip in adobe stock",
+          9.278692245483398
+        ],
+        [
+          "this writing, they could earn significant returns as they see",
+          9.245593070983887
+        ],
+        [
+          ". should you invest $ 1, 000 in",
+          9.19875431060791
+        ],
+        [
+          "expensive today. you can buy them at a price -",
+          9.190092086791992
+        ],
+        [
+          "stock now. should you invest $ 1, 000 in",
+          9.184450149536133
+        ]
+      ],
+      "avg_activation": 9.294159126281738
+    },
+    "120": {
+      "explanation": "Text containing year numbers with special formatting, specifically with \"##\" and numbers, often followed by descriptive phrases or words.",
+      "short_summary": "Year numbers with special formatting, specifically with \"##\"",
+      "activity_count": 13837,
+      "top_examples": [
+        [
+          ". congress. in 2023, he made a who",
+          11.414158821105957
+        ],
+        [
+          "since the start of 2023 was back in october,",
+          11.02968692779541
+        ],
+        [
+          "to get richer in 2024': may well slow",
+          10.99217700958252
+        ],
+        [
+          "over 21 % in 2023. still, in the",
+          10.971959114074707
+        ],
+        [
+          "since the start of 2023. the master limited partnership",
+          10.9546480178833
+        ],
+        [
+          "of april 15, 2024, year - over -",
+          10.93759822845459
+        ],
+        [
+          "into the start of 2024, per bespoke",
+          10.92426872253418
+        ],
+        [
+          "for the full year 2024 is unchanged, with the",
+          10.820833206176758
+        ],
+        [
+          "its economic forecast for 2024. shares for the company",
+          10.817181587219238
+        ],
+        [
+          "has grown since january 2023. as of april 15",
+          10.80975341796875
+        ]
+      ],
+      "avg_activation": 10.967226505279541
+    },
+    "127": {
+      "explanation": "The token \"after\" frequently appears in the context of describing a sequence of events or a change in a situation, often indicating a cause-and-effect relationship.",
+      "short_summary": "\"after\" frequently appears in the context of describing",
+      "activity_count": 49211,
+      "top_examples": [
+        [
+          "8. 7 million shares after his disposals. still",
+          9.17790412902832
+        ],
+        [
+          "their baseline after these occurrences in each of",
+          9.11044692993164
+        ],
+        [
+          "s & p 500 returns after these instances. stocks tended",
+          8.987577438354492
+        ],
+        [
+          "7 % in new york after the dutch company'sq",
+          8.95614242553711
+        ],
+        [
+          "##mark s & p index after quarterly results were prolog",
+          8.952956199645996
+        ],
+        [
+          "more than 10 % wednesday after the strong earnings report.",
+          8.917863845825195
+        ],
+        [
+          "analysts for wedbush securities after the layoffs were revealed",
+          8.906908988952637
+        ],
+        [
+          "earlier. the stock declined after the results. the new",
+          8.761629104614258
+        ],
+        [
+          "shares added about 5 % after the healthcare groupbeat quarterly",
+          8.747596740722656
+        ],
+        [
+          "bond yields continued to rise after the 10 - year treasury",
+          8.736549377441406
+        ]
+      ],
+      "avg_activation": 8.925557518005371
+    },
+    "133": {
+      "explanation": "Text contains various phrases and sentences with high activation values, indicating frequent or important words, but lacks a clear pattern or common theme.",
+      "short_summary": "Text contains various phrases and sentences with high",
+      "activity_count": 26147,
+      "top_examples": [
+        [
+          "154 to $ 174. that's an 11 %",
+          10.095159530639648
+        ],
+        [
+          "( ai ). and that's not wrong,",
+          9.90510368347168
+        ],
+        [
+          "this manner, there's no particular reason to think",
+          9.887626647949219
+        ],
+        [
+          "early growth stages, and that's evident from its",
+          9.843339920043945
+        ],
+        [
+          "400 right now': that's fair. all",
+          9.701827049255371
+        ],
+        [
+          "income in 2024. that's definitely an encouraging",
+          9.700319290161133
+        ],
+        [
+          "' s top line. that's just the norm",
+          9.65096664428711
+        ],
+        [
+          "in the industry, but that's not uipath",
+          9.632495880126953
+        ],
+        [
+          "but that's not necessarily the",
+          9.629059791564941
+        ],
+        [
+          "this, though. and that's the simple fact",
+          9.605419158935547
+        ]
+      ],
+      "avg_activation": 9.765131759643555
+    },
+    "146": {
+      "explanation": "Text fragments containing special characters, punctuation, and tokens indicating the end of a sequence or a specific context, often used in tokenization and preprocessing of text data.",
+      "short_summary": "Special characters, punctuation, and tokens indicating the end",
+      "activity_count": 59306,
+      "top_examples": [
+        [
+          "the first table < | endoftext | >",
+          11.442702293395996
+        ],
+        [
+          "##gists see < | endoftext | >",
+          11.364752769470215
+        ],
+        [
+          "forecasts. < | endoftext | >",
+          11.321739196777344
+        ],
+        [
+          ", it will < | endoftext | >",
+          11.282495498657227
+        ],
+        [
+          "angeles times. < | endoftext | >",
+          11.240774154663086
+        ],
+        [
+          "the next five < | endoftext | >",
+          11.225211143493652
+        ],
+        [
+          "\u2014 where economic < | endoftext | >",
+          11.14791488647461
+        ],
+        [
+          "of directors. < | endoftext | >",
+          11.1248140335083
+        ],
+        [
+          "then, \" < | endoftext | >",
+          11.087687492370605
+        ],
+        [
+          "##ary environment. < | endoftext | >",
+          11.07544994354248
+        ]
+      ],
+      "avg_activation": 11.231354141235352
+    },
+    "150": {
+      "explanation": "Text describing inflation data, reports, and its impact on the economy, with a focus on recent trends and future outlook.",
+      "short_summary": "Inflation data, reports, and its impact on the",
+      "activity_count": 16570,
+      "top_examples": [
+        [
+          "as he suggested that recent inflation data \" indicate that it",
+          8.833587646484375
+        ],
+        [
+          "come after the latest consumer price indexreportshowed",
+          8.784042358398438
+        ],
+        [
+          "week was what the hot inflation data means for the leadership",
+          8.776098251342773
+        ],
+        [
+          "hotter - than - expected inflation data and the central bank",
+          8.767850875854492
+        ],
+        [
+          "8 % mortgage rateshot inflation report batters stocks ;",
+          8.730072021484375
+        ],
+        [
+          "expected, fueling further inflation concerns and contributing tosca",
+          8.722071647644043
+        ],
+        [
+          "start falling. pesky inflation data is likely delaying the",
+          8.701930046081543
+        ],
+        [
+          "march ) - new zealand inflation ( q1 ) (",
+          8.678302764892578
+        ],
+        [
+          "recent weeks following multiple hot inflation reports to start the year",
+          8.607096672058105
+        ],
+        [
+          "in the trajectory of us inflation, which has remained stubborn",
+          8.60667896270752
+        ]
+      ],
+      "avg_activation": 8.720773124694825
+    },
+    "174": {
+      "explanation": "Frequent occurrences of the word \"higher\" in various contexts, often in relation to financial or economic data, indicating a pattern of discussing upward trends or increases.",
+      "short_summary": "Frequent occurrences of the word \"higher\" in various",
+      "activity_count": 23079,
+      "top_examples": [
+        [
+          "potentially could come in much higher in the long run.",
+          13.610269546508789
+        ],
+        [
+          "us stock indexes were higher tuesday morning, as investors",
+          13.37470531463623
+        ],
+        [
+          ", rising at a slightly higher rate of around 20 %",
+          13.36960220336914
+        ],
+        [
+          "##ty imagesstocks inched higher on tuesday, despite hawk",
+          13.211216926574707
+        ],
+        [
+          ") net income also edged higher, rising by nearly 4",
+          13.190393447875977
+        ],
+        [
+          ", after which it was higher one month later each time",
+          13.178446769714355
+        ],
+        [
+          "consolidated revenue was 11 % higher at $ 1. 96",
+          13.148480415344238
+        ],
+        [
+          "##amd's even higher at 45. as a",
+          13.127904891967773
+        ],
+        [
+          "), which would be higher than",
+          13.089630126953125
+        ],
+        [
+          "brokers stock was moving higher today ', published on",
+          13.089268684387207
+        ]
+      ],
+      "avg_activation": 13.238991832733154
+    },
+    "184": {
+      "explanation": "Financial and stock market related text, including stock prices, returns, and market trends, often with specific dates and percentages.",
+      "short_summary": "Financial and stock market related text, including stock",
+      "activity_count": 29333,
+      "top_examples": [
+        [
+          "\u00bb * stock advisor returns as of april 15, 202",
+          6.7382025718688965
+        ],
+        [
+          "stocks * stock advisor returns as of april 15, 202",
+          6.578968524932861
+        ],
+        [
+          "invested $ 1, 000 at the time of our recommendation",
+          5.746758460998535
+        ],
+        [
+          "$ 85 as of this writing ).",
+          5.709136962890625
+        ],
+        [
+          "\u00bb * stock advisor returns as of april 15, 202",
+          5.610899448394775
+        ],
+        [
+          "stocks * stock advisor returns as of april 15, 202",
+          5.5991926193237305
+        ],
+        [
+          "sending shares up 11 % as of 10 a. m",
+          5.516782760620117
+        ],
+        [
+          "\u00bb * stock advisor returns as of april 15, 202",
+          5.359865188598633
+        ],
+        [
+          "stocks * stock advisor returns as of april 15, 202",
+          5.328277111053467
+        ],
+        [
+          "was up about 12 % as of 10 : 30 a",
+          5.247227668762207
+        ]
+      ],
+      "avg_activation": 5.743531131744385
+    }
+  },
+  "feature_types": {
+    "top_20": [
+      127,
+      103,
+      51,
+      174,
+      115,
+      59,
+      150,
+      42,
+      54,
+      56,
+      184,
+      83,
+      43,
+      52,
+      133,
+      48,
+      106,
+      109,
+      65,
+      146
+    ],
+    "emerging": [
+      127,
+      103,
+      51,
+      174,
+      115,
+      59,
+      150,
+      42,
+      54,
+      184,
+      83,
+      43,
+      52,
+      48,
+      120
+    ],
+    "consistent": [
+      65,
+      34
+    ]
+  }
+}
