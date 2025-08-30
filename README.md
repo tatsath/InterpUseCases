@@ -7,30 +7,16 @@ A comprehensive collection of AI interpretability research use cases, demonstrat
 ### **UseCase_BERTvsFinBERT**
 *Neural Feature Evolution in Domain Adaptation: A Comprehensive Analysis of BERT to FinBERT Fine-tuning*
 
-**Description**: This use case presents a complete analysis of how neural features evolve during fine-tuning from BERT to FinBERT. Using Sparse Autoencoders (SAEs), comprehensive feature comparison, and automated neural interpretation, we reveal the systematic transformation of neural representations during domain adaptation.
+This use case presents a complete analysis of how neural features evolve during fine-tuning from BERT to FinBERT. Using Sparse Autoencoders (SAEs), comprehensive feature comparison, and automated neural interpretation, we reveal the systematic transformation of neural representations during domain adaptation. The research demonstrates systematic neural feature evolution during fine-tuning, with intuitive feature specializations that align with domain requirements and mathematical regularity in activation deltas.
 
-**Key Features**:
-- Complete SAE training pipeline for BERT and FinBERT
-- Comprehensive feature comparison across 200 neural features
-- Automated feature interpretation using Delphi and Llama 3.1 8B
-- Activation delta analysis revealing dramatic feature transformations
-- Professional research blog post with methodology and findings
+**Key Features**: Complete SAE training pipeline, comprehensive feature comparison across 200 neural features, automated feature interpretation using Delphi and Llama 3.1 8B, activation delta analysis, and professional research documentation.
 
-**Files**: 17 files organized in 5 research stages
-- Training scripts and SAE configuration
-- Feature analysis and comparison tools
-- Neural interpretation and labeling pipeline
-- Complete documentation and visualizations
+### **UseCase_Trading**
+*Decoding Financial Intelligence: How AI Features Drive Trading Strategy Performance*
 
-**Repository**: [UseCase_BERTvsFinBERT/](UseCase_BERTvsFinBERT/)
+This use case demonstrates how domain-specific fine-tuning affects feature representations in language models for financial applications. Using Sparse Autoencoders (SAEs), we extract interpretable features from BERT and FinBERT models to understand how financial fine-tuning creates specialized features that can predict market movements and price changes. The research identifies key financial features that show dramatic improvements in FinBERT compared to BERT, with backtesting results showing 554% total return and 65% win rate.
 
-## 🎯 **Research Impact**
-
-This collection demonstrates:
-1. **Systematic neural feature evolution** during fine-tuning
-2. **Intuitive feature specializations** that align with domain requirements
-3. **Mathematical regularity** in activation deltas and domain relevance
-4. **Interpretable transformations** that can be described in natural language
+**Key Features**: Financial feature extraction and analysis, trading strategy development, comprehensive backtesting with exceptional performance metrics, systematic trading framework, and market prediction capabilities.
 
 ## 🔧 **Technical Stack**
 
@@ -39,30 +25,6 @@ This collection demonstrates:
 - **Delphi**: SAE auto-interpretation library
 - **Llama 3.1 8B**: Large language model for feature interpretation
 - **WandB**: Training monitoring and experiment tracking
-
-## 📈 **Future Use Cases**
-
-This repository will continue to grow with additional interpretability research:
-- Cross-domain feature evolution analysis
-- Temporal feature tracking during training
-- Architectural comparison studies
-- Intervention and ablation studies
-
-## 📝 **Citation**
-
-If you use this research or code, please cite:
-
-```
-Neural Feature Evolution in Domain Adaptation: A Comprehensive Analysis of BERT to FinBERT Fine-tuning
-```
-
-## 🤝 **Contributing**
-
-We welcome contributions of new interpretability use cases. Please ensure:
-- Complete code and documentation
-- Reproducible research methodology
-- Clear file organization
-- Comprehensive README
 
 ---
 

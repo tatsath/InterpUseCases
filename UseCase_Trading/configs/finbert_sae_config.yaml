@@ -1,0 +1,143 @@
+# FinBERT SAE Training Configuration
+# Multi-GPU Distributed Training Setup
+
+model:
+  name: "ProsusAI/finbert"
+  hook_name: "bert.encoder.layer.0.output.dense"
+  from_pretrained_kwargs:
+    center_writing_weights: false
+    trust_remote_code: true
+    # Additional model loading parameters
+    torch_dtype: "float16"  # Use mixed precision for memory efficiency
+    device_map: "auto"  # Automatic device mapping for multi-GPU
+
+data:
+  # Dataset configuration
+  dataset_path: "data/test_financial_news.csv"  # Local test dataset
+  source_dataset_path: "data/test_financial_news.csv"  # Source dataset for pretokenization
+  tokenizer_name: "ProsusAI/finbert"
+  
+  # Context and sequence settings
+  context_size: 512
+  is_tokenized: false
+  streaming: true
+  
+  # Performance optimization
+  pretokenize: true
+  cache_activations: true
+  cached_activations_path: "./cache/finbert_activations"
+  
+  # Batch and buffer settings
+  n_batches_in_buffer: 64
+  store_batch_size_prompts: 16
+  num_proc: 4  # Number of processes for data preprocessing
+  
+  # Tokenization settings
+  begin_batch_token: "bos"
+  begin_sequence_token: null
+  sequence_separator_token: "eos"
+  
+  # Optional: HuggingFace dataset upload
+  hf_repo_id: null  # "your-username/finbert-sae-dataset"
+  pretokenized_save_path: "./data/pretokenized_financial_news"
+  cache_hf_repo_id: null  # "your-username/finbert-activations-cache"
+
+sae_params:
+  # SAE architecture parameters
+  d_in: 768  # FinBERT hidden size
+  d_sae: 4096  # SAE hidden size (4x expansion for good feature discovery)
+  apply_b_dec_to_input: true
+  normalize_activations: "expected_average_only_in"
+  
+  # Standard SAE parameters
+  l1_coefficient: 5.0
+  l1_warm_up_steps: 1000
+  lp_norm: 1.0
+  
+  # TopK SAE parameters
+  k: 100  # Number of active features
+  
+  # JumpReLU SAE parameters
+  l0_coefficient: 0.1
+  l0_warm_up_steps: 1000
+  jumprelu_init_threshold: 0.1
+  jumprelu_bandwidth: 0.1
+
+training_params:
+  # Batch size (total across all GPUs)
+  batch_size: 8192  # Adjust based on GPU memory
+  
+  # Learning rate and scheduling
+  learning_rate: 5e-5
+  total_training_tokens: 100000000  # 100M tokens
+  
+  # Learning rate scheduling
+  lr_warm_up_steps: 1000
+  lr_decay_steps: 20000
+  
+  # SAE-specific warmup
+  l1_warm_up_steps: 5000
+  l0_warm_up_steps: 5000
+  
+  # Optimization settings
+  optimizer: "adamw"
+  weight_decay: 0.01
+  gradient_clipping: 1.0
+
+logging:
+  # Weights & Biases integration
+  use_wandb: true
+  wandb_project: "finbert-sae-training"
+  wandb_log_frequency: 30
+  eval_every_n_wandb_logs: 20
+  
+  # Local logging
+  log_to_tensorboard: true
+  log_to_file: true
+  log_level: "INFO"
+
+# Output directories
+output_dir: "./sae_outputs"
+checkpoint_dir: "./checkpoints"
+cache_dir: "./cache"
+logs_dir: "./logs"
+
+# Training settings
+n_checkpoints: 5
+seed: 42
+dtype: "float32"
+
+# Multi-GPU settings
+distributed:
+  backend: "nccl"
+  init_method: "env://"
+  world_size: null  # Will be set automatically
+  rank: null  # Will be set automatically
+  
+# Performance optimization
+mixed_precision: true
+gradient_accumulation_steps: 1
+dataloader_num_workers: 4
+pin_memory: true
+
+# Model saving and loading
+save_best_only: true
+save_every_n_steps: 5000
+load_from_checkpoint: null
+
+# Evaluation settings
+eval_frequency: 1000
+eval_batch_size: 1024
+eval_metrics:
+  - "reconstruction_loss"
+  - "sparsity"
+  - "feature_usage"
+  - "l1_norm"
+
+# Early stopping
+early_stopping:
+  enabled: true
+  patience: 10
+  min_delta: 0.001
+  monitor: "reconstruction_loss"
+  mode: "min"

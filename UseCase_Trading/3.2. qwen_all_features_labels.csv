@@ -1,0 +1,121 @@
+layer,feature_idx,qwen_label,avg_improvement,max_improvement,layer_improvement,layer_category,layer_count,all_layers,all_categories
+0,1438,Rally Exhaustion Signals,1.032608099281788,1.032608099281788,1.032608099281788,derivatives_options,1,[0],derivatives_options
+0,4362,Tech Stock Valuations,0.9446873515844344,0.9446873515844344,0.9446873515844344,currency_forex,1,[0],currency_forex
+0,4527,Liquidity Improvements,0.9110508561134338,0.9110508561134338,0.9110508561134338,corporate_finance,1,[0],corporate_finance
+0,5366,Investment Strategy Trends,0.985908217728138,0.985908217728138,0.985908217728138,derivatives_options,1,[0],derivatives_options
+0,5609,Catalyst Announcements,1.2161600962281227,1.4942153692245483,0.9381048232316972,regulatory_compliance,2,"[0, 1]",regulatory_compliance | corporate_finance
+0,7392,Earnings Exceed Expectations,1.015721395611763,1.015721395611763,1.015721395611763,credit_lending,1,[0],credit_lending
+0,9858,Interest Rate Environment Changes,1.0302424728870392,1.0302424728870392,1.0302424728870392,derivatives_options,1,[0],derivatives_options
+0,10758,Market Condition Adjustments,1.2259129881858826,1.2259129881858826,1.2259129881858826,credit_lending,1,[0],credit_lending
+0,13724,Regulatory Changes Impact,1.1217746883630753,1.1217746883630753,1.1217746883630753,earnings_analysis,1,[0],earnings_analysis
+0,20529,Interest Rate Vulnerability,0.927645057439804,0.927645057439804,0.927645057439804,credit_lending,1,[0],credit_lending
+1,414,Earnings Beat Analysis,1.6026097908616066,1.6026097908616066,1.6026097908616066,derivatives_options,1,[1],derivatives_options
+1,2502,Monetary Policy Coordination,1.4060451909899712,1.4060451909899712,1.4060451909899712,currency_forex,1,[1],currency_forex
+1,3597,Technical Warning Signals,1.5680830925703049,1.5680830925703049,1.5680830925703049,derivatives_options,1,[1],derivatives_options
+1,5609,Catalyst Announcements,1.2161600962281227,1.4942153692245483,1.4942153692245483,corporate_finance,2,"[0, 1]",regulatory_compliance | corporate_finance
+1,6071,Interest Rate Policy Changes,1.4393606781959534,1.4393606781959534,1.4393606781959534,credit_lending,1,[1],credit_lending
+1,8549,Earnings Misses,1.5387367829680445,1.5387367829680445,1.5387367829680445,corporate_finance,1,[1],corporate_finance
+1,16724,Credit Vulnerabilities,1.5901947170495985,1.8069283664226528,1.3734610676765442,earnings_analysis,2,"[1, 4]",earnings_analysis | economic_indicators
+1,17263,Regulatory Enhancements,1.3930703699588776,1.3930703699588776,1.3930703699588776,economic_indicators,1,[1],economic_indicators
+1,19188,Earnings Surpass Expectations,1.5884646028280258,1.5884646028280258,1.5884646028280258,credit_lending,1,[1],credit_lending
+1,22733,Earnings Downgrades,1.4990826472640038,1.4990826472640038,1.4990826472640038,market_movements,1,[1],market_movements
+2,2650,Market Sentiment Shifts,1.5449013859033585,1.5449013859033585,1.5449013859033585,commodities_trading,1,[2],commodities_trading
+2,3339,Monetary Policy Adjustments,1.485818788409233,1.485818788409233,1.485818788409233,economic_indicators,1,[2],economic_indicators
+2,4460,Regulatory Risk Management,1.7114402453104656,1.8171121031045916,1.6607188656926155,derivatives_options,3,"[2, 3, 4]",derivatives_options | commodities_trading | economic_indicators
+2,5505,Regulatory Changes Impact,1.6801707707345486,1.8293310031294825,1.5310105383396149,corporate_finance,2,"[2, 4]",corporate_finance | regulatory_compliance
+2,9403,Interest Rate Expectations Changes,1.7067524765928586,1.7982349321246147,1.7982349321246147,currency_forex,3,"[2, 3, 4]",currency_forex | currency_forex | currency_forex
+2,9455,Interest Rate Guidance,1.5362815037369728,1.5362815037369728,1.5362815037369728,credit_lending,1,[2],credit_lending
+2,19269,Rate Guidance Signals,1.5245530754327774,1.5245530754327774,1.5245530754327774,market_movements,1,[2],market_movements
+2,19358,Regulatory Risks,1.5490173660218716,1.6334608495235443,1.4645738825201988,derivatives_options,2,"[2, 7]",derivatives_options | corporate_finance
+2,21981,Earnings Performance Updates,1.5155775398015976,1.5155775398015976,1.5155775398015976,fintech_innovation,1,[2],fintech_innovation
+2,23090,Dividend Hike Announcement,1.4678709208965302,1.4678709208965302,1.4678709208965302,interest_rates_monetary,1,[2],interest_rates_monetary
+3,2143,Monetary Policy Adjustments,1.8822062127292156,2.1185377687215805,1.6737026572227478,regulatory_compliance,4,"[3, 4, 5, 6]",regulatory_compliance | market_movements | corporate_finance
+3,2602,Fed Meeting Minutes,2.177535191178322,2.177535191178322,2.177535191178322,commodities_trading,1,[3],commodities_trading
+3,4460,Regulatory Risk Management,1.7114402453104656,1.8171121031045916,1.6564897671341896,commodities_trading,3,"[2, 3, 4]",derivatives_options | commodities_trading | economic_indicators
+3,4952,Lending Standards Tightening,1.58756023645401,1.58756023645401,1.58756023645401,market_movements,1,[3],market_movements
+3,7547,Bond Yield Movements,2.0020102709531784,2.0020102709531784,2.0020102709531784,derivatives_options,1,[3],derivatives_options
+3,9403,Interest Rate Expectations Changes,1.7067524765928586,1.7982349321246147,1.5981476157903671,currency_forex,3,"[2, 3, 4]",currency_forex | currency_forex | currency_forex
+3,9869,Market Momentum Indicators,1.8930133879184723,1.8930133879184723,1.8930133879184723,market_movements,1,[3],market_movements
+3,14375,Risk Culture Assessments,1.6497360169887545,1.6497360169887545,1.6497360169887545,credit_lending,1,[3],credit_lending
+3,17560,Tech Sector Underperformance,1.917870596051216,1.917870596051216,1.917870596051216,interest_rates_monetary,1,[3],interest_rates_monetary
+3,21754,Earnings Surges,1.61897511780262,1.61897511780262,1.61897511780262,investment_strategies,1,[3],investment_strategies
+4,2143,Monetary Policy Adjustments,1.8822062127292156,2.1185377687215805,1.9355481415987013,market_movements,4,"[3, 4, 5, 6]",regulatory_compliance | market_movements | corporate_finance
+4,4093,Rent Growth Indicator,1.762875735759735,1.762875735759735,1.762875735759735,credit_lending,1,[4],credit_lending
+4,4460,Regulatory Risk Management,1.7114402453104656,1.8171121031045916,1.8171121031045916,economic_indicators,3,"[2, 3, 4]",derivatives_options | commodities_trading | economic_indicators
+4,4983,Capital Structure Analysis,1.6904292777180672,1.7184394150972366,1.7184394150972366,corporate_finance,2,"[4, 6]",corporate_finance | interest_rates_monetary
+4,5505,Regulatory Changes Impact,1.6801707707345486,1.8293310031294825,1.8293310031294825,regulatory_compliance,2,"[2, 4]",corporate_finance | regulatory_compliance
+4,9403,Interest Rate Expectations Changes,1.7067524765928586,1.7982349321246147,1.723874881863594,currency_forex,3,"[2, 3, 4]",currency_forex | currency_forex | currency_forex
+4,15578,Earnings Call Comments,2.121445059776306,2.121445059776306,2.121445059776306,credit_lending,1,[4],credit_lending
+4,16270,Regulatory  Compliance Risks,1.8002826298276584,1.8716704547405243,1.730348464101553,regulatory_compliance,3,"[4, 5, 6]",regulatory_compliance | credit_lending | credit_lending
+4,16724,Credit Vulnerabilities,1.5901947170495985,1.8069283664226528,1.8069283664226528,economic_indicators,2,"[1, 4]",earnings_analysis | economic_indicators
+4,16957,Liquidity Stress Events,1.9828365743160248,1.9828365743160248,1.9828365743160248,currency_forex,1,[4],currency_forex
+5,10,Credit Risk Signals,1.8880316317081447,1.8880316317081447,1.8880316317081447,commodities_trading,1,[5],commodities_trading
+5,2143,Monetary Policy Adjustments,1.8822062127292156,2.1185377687215805,2.1185377687215805,corporate_finance,4,"[3, 4, 5, 6]",regulatory_compliance | market_movements | corporate_finance
+5,3903,Interest Rate Policy Updates,1.7508513629436493,1.7508513629436493,1.7508513629436493,regulatory_compliance,1,[5],regulatory_compliance
+5,5168,Market Volatility Signals,1.7817415371537209,1.7817415371537209,1.7817415371537209,interest_rates_monetary,1,[5],interest_rates_monetary
+5,8045,Earnings Miss Reaction,1.8745412975549696,1.8745412975549696,1.8745412975549696,commodities_trading,1,[5],commodities_trading
+5,9877,Credit Quality Deterioration,1.7439215779304504,1.8088993430137636,1.8088993430137636,currency_forex,3,"[5, 7, 8]",currency_forex | investment_strategies | currency_forex
+5,12693,Compliance Risk Assessments,1.6956300288438797,1.6956300288438797,1.6956300288438797,commodities_trading,1,[5],commodities_trading
+5,14552,EarningsDisclosure,1.8594743758440015,1.8594743758440015,1.8594743758440015,currency_forex,1,[5],currency_forex
+5,16270,Regulatory  Compliance Risks,1.8002826298276584,1.8716704547405243,1.7988289706408978,credit_lending,3,"[4, 5, 6]",regulatory_compliance | credit_lending | credit_lending
+5,19099,Rating UpgradesDownsgrades,1.9136138260364528,1.9136138260364528,1.9136138260364528,currency_forex,1,[5],currency_forex
+6,1565,Regulatory  Best Practices Alignment,1.846794813871384,1.846794813871384,1.846794813871384,regulatory_compliance,1,[6],regulatory_compliance
+6,1986,Compliance  Governance Activations,1.846598893404007,1.846598893404007,1.846598893404007,investment_strategies,1,[6],investment_strategies
+6,2143,Monetary Policy Adjustments,1.8822062127292156,2.1185377687215805,1.8010362833738327,commodities_trading,4,"[3, 4, 5, 6]",regulatory_compliance | market_movements | corporate_finance
+6,3889,Monetary Policy Signals,1.7233401536941528,1.7233401536941528,1.7233401536941528,interest_rates_monetary,1,[6],interest_rates_monetary
+6,4983,Capital Structure Analysis,1.6904292777180672,1.7184394150972366,1.6624191403388977,interest_rates_monetary,2,"[4, 6]",corporate_finance | interest_rates_monetary
+6,5649,Market Environment Changes,1.669096976518631,1.669096976518631,1.669096976518631,investment_strategies,1,[6],investment_strategies
+6,8092,Credit Risk Deterioration,1.804672420024872,1.804672420024872,1.804672420024872,interest_rates_monetary,1,[6],interest_rates_monetary
+6,11916,Credit Risk Adjustments,1.849553421139717,1.849553421139717,1.849553421139717,earnings_analysis,1,[6],earnings_analysis
+6,16270,Regulatory  Compliance Risks,1.8002826298276584,1.8716704547405243,1.8716704547405243,credit_lending,3,"[4, 5, 6]",regulatory_compliance | credit_lending | credit_lending
+6,16486,Earnings Season Updates,1.7181965559720993,1.7181965559720993,1.7181965559720993,credit_lending,1,[6],credit_lending
+7,4339,Earnings Loss Announcement,1.957003939896822,2.309183143079281,1.604824736714363,investment_strategies,2,"[7, 8]",investment_strategies | derivatives_options
+7,9877,Credit Quality Deterioration,1.7439215779304504,1.8088993430137636,1.7232414335012436,investment_strategies,3,"[5, 7, 8]",currency_forex | investment_strategies | currency_forex
+7,11841,Layoff Widespread Impact,2.213704138994217,2.213704138994217,2.213704138994217,credit_lending,1,[7],credit_lending
+7,16618,Risk Management Strategies,1.5896310359239578,1.5896310359239578,1.5896310359239578,earnings_analysis,1,[7],earnings_analysis
+7,16672,Stock Price Movements,1.8730933889746666,2.034868374466896,2.034868374466896,regulatory_compliance,2,"[7, 8]",regulatory_compliance | regulatory_compliance
+7,17009,Regulatory Changes,1.686210710555315,1.686210710555315,1.686210710555315,corporate_finance,1,[7],corporate_finance
+7,19233,Governance and Oversight Measures,1.6694397628307345,1.6694397628307345,1.6694397628307345,regulatory_compliance,1,[7],regulatory_compliance
+7,19358,Regulatory Risks,1.5490173660218716,1.6334608495235443,1.6334608495235443,corporate_finance,2,"[2, 7]",derivatives_options | corporate_finance
+7,20970,Inflation-Driven Market Volatility,1.625829110853374,1.6582065876573324,1.5934516340494156,currency_forex,2,"[7, 8]",currency_forex | credit_lending
+7,23013,Market Volatility Indicators,1.8085572347044945,1.8085572347044945,1.8085572347044945,corporate_finance,1,[7],corporate_finance
+8,4339,Earnings Loss Announcement,1.957003939896822,2.309183143079281,2.309183143079281,derivatives_options,2,"[7, 8]",investment_strategies | derivatives_options
+8,6772,Capital Structure Optimization,1.6264726966619492,1.6264726966619492,1.6264726966619492,earnings_analysis,1,[8],earnings_analysis
+8,7145,Earnings Beat Analysis,1.6786421835422516,1.6786421835422516,1.6786421835422516,earnings_analysis,1,[8],earnings_analysis
+8,8199,Earnings Beat Analysis,1.92143889144063,2.1324416771531105,1.7104361057281494,earnings_analysis,2,"[8, 9]",earnings_analysis | earnings_analysis
+8,9877,Credit Quality Deterioration,1.7439215779304504,1.8088993430137636,1.6996239572763443,currency_forex,3,"[5, 7, 8]",currency_forex | investment_strategies | currency_forex
+8,11988,Market Positioning Analysis,1.960919089615345,1.960919089615345,1.960919089615345,currency_forex,1,[8],currency_forex
+8,13270,Market Breadth Rally,1.5747328773140907,1.5747328773140907,1.5747328773140907,regulatory_compliance,1,[8],regulatory_compliance
+8,16672,Stock Price Movements,1.8730933889746666,2.034868374466896,1.7113184034824371,regulatory_compliance,2,"[7, 8]",regulatory_compliance | regulatory_compliance
+8,20970,Inflation-Driven Market Volatility,1.625829110853374,1.6582065876573324,1.6582065876573324,credit_lending,2,"[7, 8]",currency_forex | credit_lending
+8,22442,Risk Management Strategies,2.0889731384813786,2.328579746186733,1.849366530776024,corporate_finance,2,"[8, 9]",corporate_finance | derivatives_options
+9,2461,Hedge Fund Performance Variance,2.026023879647255,2.026023879647255,2.026023879647255,derivatives_options,1,[9],derivatives_options
+9,7742,Risk-Adjusted Metrics Mentioned,1.9251721054315567,1.9251721054315567,1.9251721054315567,investment_strategies,1,[9],investment_strategies
+9,8199,Earnings Beat Analysis,1.92143889144063,2.1324416771531105,2.1324416771531105,earnings_analysis,2,"[8, 9]",earnings_analysis | earnings_analysis
+9,10370,earnings beats,2.6199215445667505,2.6199215445667505,2.6199215445667505,derivatives_options,1,[9],derivatives_options
+9,11011,Market Decline Signals,2.0792636647820477,2.0792636647820477,2.0792636647820477,corporate_finance,1,[9],corporate_finance
+9,12402,CreditRisk Governance Enhancements,1.955901458859444,1.955901458859444,1.955901458859444,commodities_trading,1,[9],commodities_trading
+9,14577,Revenue Announcements,1.9852228611707687,1.9852228611707687,1.9852228611707687,currency_forex,1,[9],currency_forex
+9,15496,Market Environment Changes,1.8879887014627457,1.8879887014627457,1.8879887014627457,credit_lending,1,[9],credit_lending
+9,22442,Risk Management Strategies,2.0889731384813786,2.328579746186733,2.328579746186733,derivatives_options,2,"[8, 9]",corporate_finance | derivatives_options
+9,23050,Credit Risk Tightening,1.8638296127319336,1.8638296127319336,1.8638296127319336,credit_lending,1,[9],credit_lending
+10,8188,Risk-adjusted performance analysis,2.634027108550072,2.634027108550072,2.634027108550072,earnings_analysis,1,[10],earnings_analysis
+10,9197,Earnings Beat,2.237087327986956,2.237087327986956,2.237087327986956,earnings_analysis,1,[10],earnings_analysis
+10,10243,Motley Fool Recommendations,2.175925236195326,2.175925236195326,2.175925236195326,interest_rates_monetary,1,[10],interest_rates_monetary
+10,11264,Earnings Beat Expectations,2.1868542432785034,2.1868542432785034,2.1868542432785034,earnings_analysis,1,[10],earnings_analysis
+10,12749,Interest Rate Differentials,2.1886993646621704,2.1886993646621704,2.1886993646621704,currency_forex,1,[10],currency_forex
+10,13413,Long-term Parabolic Rallies,2.2731181494891644,2.2731181494891644,2.2731181494891644,currency_forex,1,[10],currency_forex
+10,13863,Dividend Hikes and Analyst Ratings,2.245186559855938,2.245186559855938,2.245186559855938,credit_lending,1,[10],credit_lending
+10,16317,Risk Management Practices,2.6008205646649003,3.032960534095764,2.1686805952340364,market_movements,2,"[10, 11]",market_movements | derivatives_options
+10,18354,Earnings Below Expectations,2.400868143886328,2.400868143886328,2.400868143886328,investment_strategies,1,[10],investment_strategies
+10,24509,Tech Sector Decline,2.5966548938304186,2.5966548938304186,2.5966548938304186,fintech_innovation,1,[10],fintech_innovation
+11,3290,Risk Management Updates,2.8557875379920006,2.8557875379920006,2.8557875379920006,investment_strategies,1,[11],investment_strategies
+11,5655,Bond Issuance Decline,2.709300123155117,2.709300123155117,2.709300123155117,derivatives_options,1,[11],derivatives_options
+11,6067,Regulatory Capital Changes,2.69669209420681,2.69669209420681,2.69669209420681,currency_forex,1,[11],currency_forex
+11,7127,Liquidity And Credit Risk Changes,2.983241142705083,2.983241142705083,2.983241142705083,market_movements,1,[11],market_movements
+11,9259,Credit Risk Signals,2.658954574726522,2.658954574726522,2.658954574726522,earnings_analysis,1,[11],earnings_analysis
+11,10912,Capital Structure Optimization,2.590616762638092,2.590616762638092,2.590616762638092,currency_forex,1,[11],currency_forex
+11,12500,Dividend Increases,2.6755892485380173,2.6755892485380173,2.6755892485380173,earnings_analysis,1,[11],earnings_analysis
+11,16317,Risk Management Practices,2.6008205646649003,3.032960534095764,3.032960534095764,derivatives_options,2,"[10, 11]",market_movements | derivatives_options
+11,18645,Volatility Indicators,2.6973550375550985,2.6973550375550985,2.6973550375550985,market_movements,1,[11],market_movements
+11,23683,Market Liquidity Changes,2.6766621358692646,2.6766621358692646,2.6766621358692646,interest_rates_monetary,1,[11],interest_rates_monetary
