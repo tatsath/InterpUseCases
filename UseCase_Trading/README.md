@@ -22,13 +22,19 @@ The research pipeline consists of six main stages: BERT vs FinBERT SAE compariso
 
 The SAE configuration uses 768 input dimensions with an expansion factor of 32, creating 24,576 features per layer. The sparsity is maintained at 192 active features per token using top-k selection with ReLU activation. The models analyzed include BERT (bert-base-uncased), FinBERT (ProsusAI/finbert), and Qwen 2.5-7B-Instruct for feature labeling.
 
+## File Structure and Purpose
+
+**Step 1 - BERT vs FinBERT Comparison**: `1. compare_bert_finbert_sae.py` performs comprehensive feature comparison between BERT and FinBERT models across all layers, generating detailed analysis reports and visualizations.
+
+**Step 2 - Feature Evolution Analysis**: `2. financial_feature_evolution_analysis.py` analyzes how financial features evolve across different layers, identifying the most important features and their improvement patterns.
+
+**Step 3 - LLM Feature Labeling**: `3. llm_feature_labeling.py` uses Qwen LLM to automatically label discovered financial features with human-interpretable descriptions, creating comprehensive feature dictionaries.
+
+**Step 4 - Mega FinBERT Model**: `4.0 mega_finbert_model.py` creates a comprehensive model combining SAE features with traditional financial analysis, including feature importance ranking and model training.
+
+**Step 5 - Backtesting Framework**: `5.1. finbert_backtesting.py` implements the complete backtesting framework for trading strategy evaluation, generating performance metrics and risk analysis reports.
+
 ## Conclusion
 
 This analysis reveals that FinBERT's financial specialization is subtle but significant, with the most important features emerging in the final layers. The discovered features show strong potential for financial applications, with some features showing 100-400% improvement in financial understanding compared to base BERT. The pipeline provides a complete framework for analyzing domain-specific language model features and can be extended to other domains and model architectures.
 
----
-
-*Analysis completed: August 2024*  
-*Total features analyzed: 294,912 (24,576 per layer × 12 layers)*  
-*Computational resources: 7 NVIDIA GPUs, 40GB+ memory*  
-*Processing time: ~8 hours* 
