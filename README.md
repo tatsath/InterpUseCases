@@ -24,6 +24,16 @@ This use case demonstrates how domain-specific fine-tuning affects feature repre
 
 **Repository**: UseCase_Trading/
 
+### **UseCase_FinancialFeatureFinding**
+
+_Advanced SAE Auto-Interpretation Pipeline: Comprehensive Feature Discovery and Analysis_
+
+This use case presents a complete end-to-end pipeline for training Sparse Autoencoders (SAEs) on financial language models and performing automated feature interpretation using Delphi's advanced auto-interpretation framework. The research demonstrates systematic neural feature discovery with 99.5%+ interpretation success rate across 400 latents per layer.
+
+**Key Results**: Complete SAE training pipeline for Llama-2-7B and FinLlama models, comprehensive layer-wise feature analysis across 5 layers (4, 10, 16, 22, 28), Delphi auto-interpretation with FAISS hard-negatives, financial domain-specific prompting, F1 score evaluation (0.5-0.7 range), and production-ready evaluation frameworks.
+
+**Repository**: UseCase_FinancialFeatureFinding/
+
 ## 🔧 **Technical Stack**
 
 * **PyTorch**: Deep learning framework
