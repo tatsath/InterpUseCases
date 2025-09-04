@@ -1,0 +1,77 @@
+# Delphi Finance Auto-Interp Configuration
+# ======================================
+# This file contains all supported Delphi parameters for finance-specific auto-interpretability
+
+# Model Configuration
+model: "meta-llama/Llama-2-7b-hf"
+sparse_model: "/home/nvidia/Documents/Hariom/saetrain/InterpUseCases/UseCase_LlamavsFinLlama/results/latents"
+
+# Layer Configuration
+hookpoints: ["layers.16"]
+max_latents: 400
+
+# Token Configuration
+n_tokens: 5000000
+cache_ctx_len: 256
+batch_size: 32
+
+# FAISS Configuration (Programmatic API only)
+faiss:
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  cache_enabled: true
+  cache_dir: ".embedding_cache"
+
+# Explainer Configuration
+explainer:
+  model: "Qwen/Qwen2.5-72B-Instruct"
+  provider: "offline"
+  max_len: 8192
+  temperature: 0.2
+  num_gpus: 4
+
+# Scorer Configuration
+scorers: ["detection", "recall", "fuzzing"]
+
+# Pipeline Configuration
+n_processes: 4
+filter_bos: true
+
+# Output Configuration
+output_dir: "runs"
+run_name: "llama2_7b_layer16_finance_autointerp"
+
+# Finance Labels
+finance_labels:
+  - "EARNINGS_BEAT"
+  - "GUIDANCE_UP"
+  - "DOWNGRADE"
+  - "CREDIT_DOWNGRADE"
+  - "LAYOFFS"
+  - "M&A_RUMOR"
+  - "M&A_CONFIRMED"
+  - "CFO_CHANGE"
+  - "SEC_ENFORCEMENT"
+  - "MACRO_INFLATION"
+  - "RATE_CUT"
+  - "DIVIDEND_CUT"
+  - "BANKRUPTCY"
+  - "REGULATORY_RISK"
+  - "ESG_CONTROVERSY"
+  - "FX_HEADWIND"
+  - "STOCK_PERFORMANCE"
+  - "MARKET_TREND"
+  - "COMPANY_NEWS"
+  - "ECONOMIC_INDICATOR"
+  - "OTHER"
+
+# Detection F1 Configuration
+detection_f1:
+  threshold: 0.65
+  samples_per_feature: 200
+  balance_pos_neg: true
+
+# Steering Configuration
+steering:
+  alpha_list: [-20, -10, -5, -2.5, 2.5, 5, 10, 20]
+  apply_scope: "ALL_TOKENS"
+  eval_on_target_off_target: true

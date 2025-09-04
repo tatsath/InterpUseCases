@@ -1,0 +1,17 @@
+{"text":"The company raised FY guidance citing margin expansion.","label":"GUIDANCE_UP","rationale":"Explicit upward guidance change."}
+{"text":"S&P downgraded the issuer to BB+ from BBB-.","label":"CREDIT_DOWNGRADE","rationale":"Formal rating downgrade statement."}
+{"text":"Management announced 10% workforce reduction.","label":"LAYOFFS","rationale":"Headcount cut announcement."}
+{"text":"Q1 earnings beat estimates by 15%.","label":"EARNINGS_BEAT","rationale":"Earnings exceeded analyst expectations."}
+{"text":"Company confirmed merger talks with competitor.","label":"M&A_RUMOR","rationale":"Merger discussion confirmation."}
+{"text":"SEC filed charges for accounting violations.","label":"SEC_ENFORCEMENT","rationale":"Regulatory enforcement action."}
+{"text":"Inflation increased raw material costs 20%.","label":"MACRO_INFLATION","rationale":"Macroeconomic inflation impact."}
+{"text":"Federal Reserve cut interest rates by 25bps.","label":"RATE_CUT","rationale":"Central bank rate reduction."}
+{"text":"Board declared quarterly dividend increase.","label":"DIVIDEND_CUT","rationale":"Dividend policy change."}
+{"text":"Company filed for Chapter 11 protection.","label":"BANKRUPTCY","rationale":"Bankruptcy filing announcement."}
+{"text":"FDA issued warning letter for violations.","label":"REGULATORY_RISK","rationale":"Regulatory compliance issue."}
+{"text":"Environmental groups criticized emissions.","label":"ESG_CONTROVERSY","rationale":"ESG-related controversy."}
+{"text":"FX fluctuations impacted revenue by $50M.","label":"FX_HEADWIND","rationale":"Foreign exchange headwinds."}
+{"text":"Stock price surged 25% on breakthrough news.","label":"STOCK_PERFORMANCE","rationale":"Significant stock price movement."}
+{"text":"Market share increased to 35% in Q2.","label":"MARKET_TREND","rationale":"Market position improvement."}
+{"text":"New CEO appointed effective next month.","label":"COMPANY_NEWS","rationale":"Executive leadership change."}
+{"text":"Economic indicators suggest slowdown ahead.","label":"ECONOMIC_INDICATOR","rationale":"Economic outlook assessment."}

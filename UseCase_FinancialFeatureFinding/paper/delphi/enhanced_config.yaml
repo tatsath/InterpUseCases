@@ -1,0 +1,78 @@
+# Enhanced Finance Auto-Interp Configuration
+# =========================================
+# This implements the research paper approach with:
+# - 50 samples per feature for interpretation
+# - 200 samples per feature for scoring
+# - Top decile sampling for positives
+# - Balanced negative sampling
+# - Full feature coverage (400 latents)
+
+# Model Configuration
+model: "meta-llama/Llama-2-7b-hf"
+sparse_model: "/home/nvidia/Documents/Hariom/saetrain/trained_models/llama2_7b_hf_layers4 10 16 22 28_k32_latents400_wikitext103_torchrun"
+
+# Layer Configuration
+hookpoints: ["layers.16"]
+max_latents: 400  # All features
+
+# Enhanced Token Configuration
+n_tokens: 500000  # Increased for better sampling
+cache_ctx_len: 256
+batch_size: 32
+
+# Enhanced Sampling Configuration (Research Paper Approach)
+sampling:
+  interpretation_samples: 50    # Samples per feature for interpretation
+  scoring_samples: 200         # Samples per feature for scoring
+  top_decile_ratio: 0.1       # Top 10% for positive examples
+  balance_pos_neg: true        # Equal positive/negative sampling
+  min_examples: 50            # Minimum examples required per feature
+
+# Explainer Configuration
+explainer:
+  model: "Qwen/Qwen2.5-72B-Instruct"
+  provider: "offline"
+  max_len: 8192
+  temperature: 0.2
+  num_gpus: 4
+
+# Scorer Configuration
+scorers: ["detection"]
+
+# Pipeline Configuration
+n_processes: 4
+filter_bos: true
+
+# Output Configuration
+output_dir: "runs"
+run_name: "enhanced_finance_autointerp_full_scale"
+
+# Finance Labels (for domain-specific interpretations)
+finance_labels:
+  - "EARNINGS_BEAT"
+  - "GUIDANCE_UP"
+  - "DOWNGRADE"
+  - "CREDIT_DOWNGRADE"
+  - "LAYOFFS"
+  - "M&A_RUMOR"
+  - "M&A_CONFIRMED"
+  - "CFO_CHANGE"
+  - "SEC_ENFORCEMENT"
+  - "MACRO_INFLATION"
+  - "RATE_CUT"
+  - "DIVIDEND_CUT"
+  - "BANKRUPTCY"
+  - "REGULATORY_RISK"
+  - "ESG_CONTROVERSY"
+  - "FX_HEADWIND"
+  - "STOCK_PERFORMANCE"
+  - "MARKET_TREND"
+  - "COMPANY_NEWS"
+  - "ECONOMIC_INDICATOR"
+  - "OTHER"
+
+# Detection F1 Configuration
+detection_f1:
+  threshold: 0.65              # Quality threshold for interpretations
+  samples_per_feature: 200     # Scoring samples per feature
+  balance_pos_neg: true        # Balanced evaluation set
